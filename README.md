@@ -13,4 +13,18 @@ The game is run in an infinite `while` loop, with the game window being updated 
 
 If the snake collides with the game window's border or with its body, the game restarts, and the score is set back to zero.
 
-Overall, this code provides a good implementation of the classic snake game using Pygame library.
+Overall, the code implements a basic version of the classic Snake game using the Pygame library. Here is a breakdown of the different components:
+
+Import statements: The code imports the Pygame, sys, time, and random libraries.
+
+Global variables: The code defines global variables for the speed of the game and the size of the game window.
+
+Initialization: The code initializes the Pygame library and checks for any errors. It also sets the title of the game window and creates the game window.
+
+Helper functions: The code defines two helper functions for displaying the score and speed of the game. These functions take arguments for the color, font, and size of the text.
+
+Game setup: The code initializes variables for the position of the snake's head, the snake's body, the position of the food, whether the food has been spawned, the score, and the direction of the snake.
+
+Game loop: The code enters an infinite loop that handles user input, updates the position of the snake, checks for collisions with the food and the body of the snake, and updates the score and speed of the game. The loop also displays the graphics for the game, including the snake, the food, the score, and the speed.
+
+Game over: If the head of the snake collides with the body, the game resets and the loop starts again.
