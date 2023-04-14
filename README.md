@@ -27,4 +27,4 @@ Game setup: The code initializes variables for the position of the snake's head,
 
 Game loop: The code enters an infinite loop that handles user input, updates the position of the snake, checks for collisions with the food and the body of the snake, and updates the score and speed of the game. The loop also displays the graphics for the game, including the snake, the food, the score, and the speed.
 
-Game over: If the head of the snake collides with the body, the game resets and the loop starts again.
+Game over: If the head of the snake collides with the body, the game resets and the loop starts again..
